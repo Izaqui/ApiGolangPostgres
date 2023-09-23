@@ -23,8 +23,11 @@ port = "9000"
 
 [database]
 host = "localhost"
+#
 user = ""
+#
 pass = ""
+#
 name = "api_Name"
 
 # Iniciamos nosso server depois de configurar nosso arquivos e starta nosso banco.
