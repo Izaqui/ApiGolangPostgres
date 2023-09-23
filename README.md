@@ -9,7 +9,7 @@
 ## iniciando com a configuração do arquivo docker_run.sh
 
 ## Iniciar container postgres com Docker, devemos configurar o arquivo e depois excutar o script com o comando "./docker_run.sh" ou "sh docker_run.sh" ou "bash docker_run.sh"
-
+#
 sudo docker run -d --name "Nome da Base de Dados" -p 5432:5432 -e POSTGRES_PASSWORD="sua senha" postgres:13.5
 #
 Listar containes
